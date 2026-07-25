@@ -1,8 +1,15 @@
 aid: cuida-mi-mascota
 name: Cuida Mi Mascota
-description: Cuida Mi Mascota is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cuida Mi Mascota (CuidaMiMascota SAPI de CV) is a Mexican pet-care marketplace
+  that connects pet owners with vetted, trusted caregivers for boarding
+  (hospedaje), daycare, in-home visits, and dog walking across cities in Mexico.
+  Delivered primarily as consumer iOS and Android mobile apps, the platform has
+  served more than 250,000 pet owners and lets caregivers register to offer
+  services. It is a 500 Global portfolio company. The company exposes no public
+  API, developer portal, or SDK today; this profile is maintained in the API
+  Evangelist network as a company lead with identity and domain-security signals
+  captured for discovery.
 url: https://raw.githubusercontent.com/api-evangelist/cuida-mi-mascota/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +17,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://s3.amazonaws.com/cmm-assets/front/static/global/og-image.jpg
 tags:
 - Company
+- Pets
+- Pet Care
+- Marketplace
+- Mobile
+- Consumer
+- Mexico
+- Two-Sided Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://cuidamimascota.com.mx
+- type: Blog
+  url: https://blog.cuidamimascota.com
+- type: SignUp
+  url: https://cuidamimascota.com.mx/registro
+- type: Login
+  url: https://cuidamimascota.com.mx/ingresar
+- type: TermsOfService
+  url: https://cuidamimascota.com.mx/tyc
+- type: PrivacyPolicy
+  url: https://cuidamimascota.com.mx/aviso-privacidad
+- type: DomainSecurity
+  url: security/cuida-mi-mascota-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
